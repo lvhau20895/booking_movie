@@ -33,6 +33,8 @@ const Register = () => {
 		{ isManual: true }
 	);
 
+	console.log(handleRegister);
+
 	const onSubmit = async (values) => {
 		try {
 			await handleRegister(values);
